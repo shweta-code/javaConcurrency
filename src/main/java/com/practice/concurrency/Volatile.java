@@ -137,7 +137,6 @@ class ExampleTwo {
                 }
             }
         };
-
         Thread thread1 = new Thread(r1);
         thread1.setName("Shweta");
         thread1.start();
