@@ -13,6 +13,7 @@ import java.util.List;
 * What volatile fails to give?
 * When should we use volatile?
 *
+*
 * @link
 * Can you make array or arrayList or a collection for that matter volatile?
 * https://javarevisited.blogspot.com/2017/01/can-we-make-array-volatile-in-java.html

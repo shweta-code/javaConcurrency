@@ -52,7 +52,7 @@ public class NoWaitStrategy implements BookingStrategy {
     }
 
     @Override
-    public boolean cancel(int i) throws InterruptedException {
+    public boolean cancel(int i) {
         Theatre.Seat seat = seats.get(i);
         seat.getLock().lock();
         seat.setBooked(Boolean.FALSE);
