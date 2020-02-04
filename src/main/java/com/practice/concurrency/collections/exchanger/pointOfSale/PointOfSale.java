@@ -1,4 +1,4 @@
-package com.practice.concurrency.collections.pointOfSale;
+package com.practice.concurrency.collections.exchanger.pointOfSale;
 
 import java.util.concurrent.Exchanger;
 
@@ -22,7 +22,7 @@ public class PointOfSale implements Runnable{
             Thread.sleep(3000);
             System.out.println("I am ready to sell goods");
             Thread.sleep(3000);
-            exchanger.exchange(goods);
+            goods = exchanger.exchange(goods);
             System.out.println("Hurray !! sold and got money");
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -69,7 +69,7 @@ class Customer implements Runnable{
     Exchanger<Exchangeable> exchanger;
 
     public Customer(Exchanger<Exchangeable> exchanger) {
-        money = new Goods();
+        money = new Money();
         this.exchanger = exchanger;
     }
 
@@ -82,7 +82,7 @@ class Customer implements Runnable{
     public void run() {
         try {
             System.out.println("I want to buy goods");
-            exchanger.exchange(money);
+            money = exchanger.exchange(money);
             System.out.println("I purchased goods");
         } catch (InterruptedException e) {
             e.printStackTrace();
