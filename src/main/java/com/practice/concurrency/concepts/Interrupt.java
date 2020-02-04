@@ -1,4 +1,4 @@
-package com.practice.concurrency;
+package com.practice.concurrency.concepts;
 
 public class Interrupt {
 }

@@ -1,4 +1,4 @@
-package com.practice.concurrency.semaphore;
+package com.practice.concurrency.conctructs.semaphore;
 
 
 /*

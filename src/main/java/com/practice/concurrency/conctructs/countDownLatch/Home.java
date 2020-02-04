@@ -1,4 +1,4 @@
-package com.practice.concurrency.countDownLatch;
+package com.practice.concurrency.conctructs.countDownLatch;
 
 
 /*

@@ -1,4 +1,4 @@
-package com.practice.concurrency.reentrantLock;
+package com.practice.concurrency.conctructs.reentrantLock;
 
 
 /*

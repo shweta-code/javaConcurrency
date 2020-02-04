@@ -16,7 +16,7 @@ package com.practice.concurrency.producerConsumer;
 *
 *   Enhance this program to create priority line and every step should be interrupted to process priority line first and leave aside normal line.
 *
-*   Write these two programs using BlockingQueue and low level multithreading concepts.
+*   Write these two programs using com.practice.concurrency.BlockingQueue and low level multithreading concepts.
 *
 * */
 public class ProducerConsumer {

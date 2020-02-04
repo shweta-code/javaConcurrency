@@ -1,4 +1,4 @@
-package com.practice.concurrency.reentrantLock.theatre;
+package com.practice.concurrency.conctructs.reentrantLock.theatre;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

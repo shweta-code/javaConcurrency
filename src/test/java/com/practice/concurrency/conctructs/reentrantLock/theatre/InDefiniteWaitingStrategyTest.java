@@ -1,4 +1,4 @@
-package com.practice.concurrency.reentrantLock.theatre;
+package com.practice.concurrency.conctructs.reentrantLock.theatre;
 
 import org.junit.Assert;
 import org.junit.Test;
