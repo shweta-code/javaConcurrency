@@ -18,7 +18,7 @@ public class Wait {
                 "\n" +
                 "This is why using notifyAll is less than ideal, it causes a bunch of threads that were previously happily dormant putting no load on the system to get woken up, where most of them will block until they can acquire the lock, find the condition they are waiting for is not true, and go back to waiting. It would be preferable to notify only those threads that have a chance of making progress.\n" +
                 "\n" +
-                "(Using ReentrantLock instead of intrinsic locks allows you to have multiple conditions for one lock, so that you can make sure the notified thread is one that's waiting on a particular condition, avoiding the lost-notification bug in the case of a thread getting notified for something it can't act on.)");
+                "(Using CustomReentrantLock instead of intrinsic locks allows you to have multiple conditions for one lock, so that you can make sure the notified thread is one that's waiting on a particular condition, avoiding the lost-notification bug in the case of a thread getting notified for something it can't act on.)");
     }
 
 }
