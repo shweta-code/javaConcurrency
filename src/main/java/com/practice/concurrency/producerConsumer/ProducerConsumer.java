@@ -7,7 +7,7 @@ package com.practice.concurrency.producerConsumer;
 * 2) Program a lollipop making factory.
 *   * Mixer will mix contents.
 *   * Dryer brings the contents to appropriate temperature
-*   * Stretcher stretches the cintent
+*   * Stretcher stretches the content
 *   * Cutter cuts the content into worth packing pieces.
 *   * Packer packages the pieces.
 *

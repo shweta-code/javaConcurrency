@@ -18,7 +18,8 @@ package com.practice.concurrency.conctructs.countDownLatch;
 public class CountDownLatch {
 
     public static void main(String[] args) {
-        System.out.println("Countdown latch is construct that allows a thread to wait until other some fixed no of threads do not finish their tasks");
+        System.out.println("Countdown latch is construct that allows a thread to wait " +
+                "until other some fixed no of threads do not finish their tasks");
         System.out.println("Multiple threads will wait for each other");
 
     }
