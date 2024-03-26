@@ -12,7 +12,7 @@ package com.practice.concurrency.producerConsumer;
 *   * Packer packages the pieces.
 *
 *   Enhance it to create a defective line where defective product goes back into the step that caused that defect
-*   and will be repocessed through successive steps. Can deadlock happen here? How can that deadlock happen?
+*   and will be reprocessed through successive steps. Can deadlock happen here? How can that deadlock happen?
 *
 *   Enhance this program to create priority line and every step should be interrupted to process priority line first and leave aside normal line.
 *
